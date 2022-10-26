@@ -1,0 +1,36 @@
+.title {
+  font-size: 40px;
+  font-weight: $semibold;
+  line-height: 50px;
+  color: $text;
+  @include sp {
+    font-size: 24px;
+    line-height: normal;
+  }
+}
+
+
+.subtitle {
+  font-size: 25px;
+  font-weight: $meduim;
+  color: $text;
+  @include sp {
+    font-size: 16px;
+  }
+}
+
+.info {
+  font-size: 18px;
+  margin: 20px 0 25px;
+  font-weight: $regular;
+  color: $text-62;
+  line-height: 30px;
+  @include sp {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $primary;
+}

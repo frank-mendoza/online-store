@@ -1,0 +1,95 @@
+.carousel {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0;
+  @include mx1400 {
+    padding: 50px 5%;
+  }
+  @include sp {
+    padding-top: 30px;
+  }
+  
+  &__container {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0;
+  }
+
+  &__item {
+    // width: 340px;
+    height: 300px;
+    text-align: left;
+    background-color: $light;
+    transition: ease 0.2s;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px rgba(63, 61, 86, 0.1);
+    cursor: auto;
+    @include sp {
+      width: 100%;
+      height: auto;
+      padding: 40px 30px;
+    }
+
+    &:hover {
+      background-color: $secondary;
+      box-shadow: 0 0 10px rgba(63, 61, 86, 0.1);
+      transition: ease 0.2s;
+    }
+  }
+  
+  &__item-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 1px solid $secondary;
+      transition: ease 0.2s;
+    }
+  }
+
+  &__item-title {
+    font-size: 24px;
+    font-weight: $semibold;
+    color: $text;
+    font-size: 20px;
+
+    span {
+      font-size: 14px;
+      font-weight: $regular;
+      @include sp {
+        font-size: 16px;
+      }
+    }
+  }
+
+  &__item-text {
+    color: $gray-63;
+    font-size: 16px;
+    font-weight: $regular;
+    margin-top: 20px;
+    line-height: 25px;
+    @include sp {
+      font-size: 14px;
+      line-height: 20px;
+      text-align: justify;
+    }
+  }
+}

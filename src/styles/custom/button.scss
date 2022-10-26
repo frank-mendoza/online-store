@@ -1,0 +1,56 @@
+.button {
+  outline: none;
+  border: 1px solid $text;
+  font-weight: $meduim;
+  font-size: 18px;
+  text-align: center;
+  background-color: transparent;
+  padding: 15px 35px;
+  color: $text;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  @include sp {
+    width: 100%;
+    min-width: 100%;
+    font-size: 16px;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: -100%;
+    top: 0;
+    background-color: $secondary;
+    transition: ease 0.3s;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  &:hover {
+    border-color: $secondary;
+    transition: ease 0.3s;
+
+    &::before {
+      left: 0;
+      transition: ease 0.3s;
+    }
+  }
+
+  span {
+    z-index: 5;
+    position: relative;
+  }
+
+  &.border-white {
+    border: 1px solid $primary;
+    color: $white;
+    background-color: $primary;
+    
+    &:hover {
+      border: 1px solid $secondary;
+      color: $text;
+    }
+  }
+}

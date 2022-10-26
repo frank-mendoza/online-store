@@ -1,0 +1,53 @@
+.sidebar {
+  height: 100%;
+  width: 70%;
+  position: fixed;
+  z-index: 15;
+  top: 0%;
+  background-color: $light;
+  display: none;
+  transition: ease 0.2s;
+  @include sp {
+    display: block;
+  }
+
+  &__menu {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  &__list {
+    width: 100%;
+    height: 100%;
+    padding: 80px 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  &__link {
+    width: 100%;
+    text-decoration: none;
+    transition: ease 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    color: $text;
+
+    &:hover {
+      color: $primary;
+      transition: ease 0.2s;
+    }
+  }
+
+  .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+}

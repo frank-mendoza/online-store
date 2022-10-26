@@ -1,0 +1,14 @@
+@import 'mixin.scss';
+@import 'variables.scss';
+
+//custom
+@import './custom/button.scss';
+@import './custom/common.scss';
+
+//components
+@import './components/nav.scss';
+@import './components/sidebar.scss';
+@import './components/home.scss';
+@import './components/about.scss';
+@import './components/carousel.scss';
+@import './components/footer.scss';
