@@ -27,7 +27,7 @@ const Main = () => {
           openSidebar={openSidebar}
         />
         <Routes>
-          <Route path="/home" element={
+          <Route path="/online-store" element={
             <>
               <Home />
               <About />
