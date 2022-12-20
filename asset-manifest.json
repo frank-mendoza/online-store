@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/online-store/static/css/main.87f36167.css",
-    "main.js": "/online-store/static/js/main.232c0ed8.js",
+    "main.css": "/online-store/static/css/main.5309ee6b.css",
+    "main.js": "/online-store/static/js/main.b1104d7c.js",
     "static/js/787.7b86d566.chunk.js": "/online-store/static/js/787.7b86d566.chunk.js",
     "static/media/pexels-waldemar-brandt-2111192.jpg": "/online-store/static/media/pexels-waldemar-brandt-2111192.f3307b76be3d5a97ee10.jpg",
     "static/media/pexelswendywei.png": "/online-store/static/media/pexelswendywei.8a8155b9a445167a29c9.png",
     "static/media/pexels-meriño.png": "/online-store/static/media/pexels-meriño.5a619bb3922773d96072.png",
     "static/media/pexels-noelle-otto-906006.jpg": "/online-store/static/media/pexels-noelle-otto-906006.855f423807ef9b965d36.jpg",
     "static/media/cottonbro.png": "/online-store/static/media/cottonbro.47ed6dec4601bd15886f.png",
-    "static/media/pexels-michael-burrows.svg": "/online-store/static/media/pexels-michael-burrows.949b155becc38a618e3e4ccef0959cad.svg",
+    "static/media/pexels-michael-burrows.svg": "/online-store/static/media/pexels-michael-burrows.81d582a1f900c7576dd5bc1082bbcd34.svg",
     "static/media/pexels-daniyal-ghanavati-70069.jpg": "/online-store/static/media/pexels-daniyal-ghanavati-70069.41800e3dc616c1c9238c.jpg",
     "static/media/pexels-binyamin-mellish.png": "/online-store/static/media/pexels-binyamin-mellish.2a6f2656ea27af7b02f1.png",
     "static/media/pexels-flenn-may.png": "/online-store/static/media/pexels-flenn-may.ac53005e66bc25511541.png",
@@ -17,16 +17,16 @@
     "static/media/pexels-cottonbro.png": "/online-store/static/media/pexels-cottonbro.96c8673a831f04549d42.png",
     "static/media/pexels-pixabay.png": "/online-store/static/media/pexels-pixabay.bc88a9009b374a7bf58b.png",
     "static/media/pexels-mentatdgt.png": "/online-store/static/media/pexels-mentatdgt.524b1421185a53759b21.png",
-    "static/media/plants.svg": "/online-store/static/media/plants.a0224247e269aa2e16adbb5ab6dee159.svg",
-    "static/media/undraw_my_app.svg": "/online-store/static/media/undraw_my_app.31750aa40bf45cad68a730037426b6f2.svg",
-    "static/media/icon-check.svg": "/online-store/static/media/icon-check.42cc50857323c3f0eb00.svg",
+    "static/media/plants.svg": "/online-store/static/media/plants.be7681c64c053587a06c93ee47e8cc4f.svg",
+    "static/media/undraw_my_app.svg": "/online-store/static/media/undraw_my_app.3a01632657f5fd1d54e729ebd3c491d1.svg",
+    "static/media/icon-check.svg": "/online-store/static/media/icon-check.de450fb2a56d339bdeee.svg",
     "index.html": "/online-store/index.html",
-    "main.87f36167.css.map": "/online-store/static/css/main.87f36167.css.map",
-    "main.232c0ed8.js.map": "/online-store/static/js/main.232c0ed8.js.map",
+    "main.5309ee6b.css.map": "/online-store/static/css/main.5309ee6b.css.map",
+    "main.b1104d7c.js.map": "/online-store/static/js/main.b1104d7c.js.map",
     "787.7b86d566.chunk.js.map": "/online-store/static/js/787.7b86d566.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87f36167.css",
-    "static/js/main.232c0ed8.js"
+    "static/css/main.5309ee6b.css",
+    "static/js/main.b1104d7c.js"
   ]
 }
