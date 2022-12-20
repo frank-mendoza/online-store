@@ -30,9 +30,7 @@ const Home = () => {
     </>
   )
   return (
-    <div div
-      className='home'
-    >
+    <div className='home'>
       <Swiper
         modules={[Navigation, Autoplay, Controller, Scrollbar]}
         slidesPerView={1}
